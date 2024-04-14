@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
+
+
 /*////////////////////////
     Table of Contents
     1. Global Styles
@@ -16,7 +18,59 @@
 
 /* ------------------------------- 1. Global Styles -------------------------------- */
 
+:root {
+    --paars: #5722CD;
+    --blauw: #4845E4;
+    --roze: #ED4385;
+    --zwart: #0C0C0C;
+    --lichtpaars: #F2F0FF;
+    --lichtgrijs: #F3F6F9;
+    --grijs: #7A7A7A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button, input {
+    font-family: inherit;
+}
+
+li {
+    list-style-type: none;
+
+}
+
 /* ------------------------------- 2. Typography ----------------------------------- */
+
+body {
+    font-family: merriweather, sans-serif;
+}
+
+
+h1, h2, h3, h4, h5 {
+    font-family: merriweather, sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 52px;
+    line-height: 1.2;
+}
+
+a,
+a:visited,
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    margin: 20px 0;
+    line-height: 1.6;
+}
 
 /* ------------------------------- 3. Layout --------------------------------------- */
 
@@ -27,6 +81,9 @@
 /* ------------------------------- 4. Areas ---------------------------------------- */
 
 /* --------------- 4.1 Header ------------------------- */
+
+background: rgb(72,69,228);
+background: linear-gradient(90deg, rgba(72,69,228,1) 0%, rgba(87,34,205,1) 93%);
 
 /* --------------- 4.2 Introduction ------------------- */
 
